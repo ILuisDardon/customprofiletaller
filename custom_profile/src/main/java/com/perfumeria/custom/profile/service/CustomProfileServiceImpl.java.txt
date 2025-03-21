@@ -1,0 +1,25 @@
+package com.perfumeria.custom.profile.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.perfumeria.custom.profile.models.sqlserver.CustomProfile;
+import com.perfumeria.custom.profile.repository.CustomProfileRepository;
+import com.perfumeria.custom.profile.utils.CustomProfileException;
+
+@Service
+public class CustomProfileServiceImpl implements ICustomProfileService {
+
+    @Autowired
+    private CustomProfileRepository customProfileRepository;
+
+    @Override
+    public CustomProfile saveCustomProfile(CustomProfile CustomProfile) throws CustomProfileException {
+
+        
+        
+        return customProfileRepository.save(CustomProfile);       
+    }
+
+
+}

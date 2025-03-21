@@ -1,0 +1,30 @@
+package com.perfumeria.custom.profile.repository;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.Repository;
+import org.springframework.data.repository.query.Param;
+
+import com.perfumeria.custom.profile.models.sqlserver.CustomProfile;
+
+public interface CustomProfileRepository extends Repository<CustomProfile, Long> {
+
+     // Método para guardar una orden
+     CustomProfile save(CustomProfile customProfile);
+
+    // Método para obtener todas las órdenes
+    List<CustomProfile> findAll();
+
+    
+
+    // Método para buscar órdenes por código SKU
+    //List<Orden> findByCodigoSKU(ClaveCompuestaId codigoSKU);
+
+    // Método para borrar una orden (requiere el objeto completo)
+    void delete(CustomProfile customProfile);
+
+    // Consulta personalizada para obtener órdenes por cantidad mínima
+    @Query("SELECT o FROM CustomProfile o WHERE o.clientid = :clientid")
+    List<CustomProfile> findByClientidGreaterThanEqual(@Param("clientid") Integer cantidad);
+}

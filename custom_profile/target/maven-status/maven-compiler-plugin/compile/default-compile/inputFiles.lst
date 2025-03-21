@@ -1,0 +1,11 @@
+/Users/fredyorellanaflores/custom_profile/src/main/java/com/perfumeria/custom/profile/CustomProfileApplication.java
+/Users/fredyorellanaflores/custom_profile/src/main/java/com/perfumeria/custom/profile/api_models/CustomerResponse.java
+/Users/fredyorellanaflores/custom_profile/src/main/java/com/perfumeria/custom/profile/config/RestTemplateConfig.java
+/Users/fredyorellanaflores/custom_profile/src/main/java/com/perfumeria/custom/profile/controller/CustomProfileController.java
+/Users/fredyorellanaflores/custom_profile/src/main/java/com/perfumeria/custom/profile/models/CustomAttribute.java
+/Users/fredyorellanaflores/custom_profile/src/main/java/com/perfumeria/custom/profile/models/Customer.java
+/Users/fredyorellanaflores/custom_profile/src/main/java/com/perfumeria/custom/profile/models/CustomerLoyalty.java
+/Users/fredyorellanaflores/custom_profile/src/main/java/com/perfumeria/custom/profile/models/PointHistory.java
+/Users/fredyorellanaflores/custom_profile/src/main/java/com/perfumeria/custom/profile/repository/PointHistoryRepository.java
+/Users/fredyorellanaflores/custom_profile/src/main/java/com/perfumeria/custom/profile/service/CustomerService.java
+/Users/fredyorellanaflores/custom_profile/src/main/java/com/perfumeria/custom/profile/service/PointHistoryService.java

@@ -1,0 +1,10 @@
+package com.perfumeria.custom.profile.service;
+
+import com.perfumeria.custom.profile.models.sqlserver.CustomProfile;
+import com.perfumeria.custom.profile.utils.CustomProfileException;
+
+
+public interface ICustomProfileService {
+
+    public CustomProfile saveCustomProfile(CustomProfile customProfile) throws  CustomProfileException;
+}

@@ -1,0 +1,11 @@
+com/perfumeria/custom/profile/api_models/CustomerResponse.class
+com/perfumeria/custom/profile/models/CustomerLoyalty.class
+com/perfumeria/custom/profile/config/RestTemplateConfig.class
+com/perfumeria/custom/profile/service/CustomerService.class
+com/perfumeria/custom/profile/models/PointHistory.class
+com/perfumeria/custom/profile/models/Customer.class
+com/perfumeria/custom/profile/CustomProfileApplication.class
+com/perfumeria/custom/profile/models/CustomAttribute.class
+com/perfumeria/custom/profile/service/PointHistoryService.class
+com/perfumeria/custom/profile/controller/CustomProfileController.class
+com/perfumeria/custom/profile/repository/PointHistoryRepository.class
